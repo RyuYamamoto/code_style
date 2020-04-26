@@ -1,0 +1,11 @@
+---
+BasedOnStyle: 'Google'
+AccessModifierOffset: -2
+BreakBeforeBraces: Attach 
+AllowShortLoopsOnASingleLine: true
+AlignAfterOpenBracket: true
+AlignAfterOpenBracket: true
+AllowShortBlocksOnASingleLine: true
+BreakConstructorInitializersBeforeComma: true
+BinPackParameters: true
+TabWidth: 2
