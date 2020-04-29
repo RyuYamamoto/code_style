@@ -2,10 +2,13 @@
 BasedOnStyle: 'Google'
 AccessModifierOffset: -2
 BreakBeforeBraces: Attach 
-AllowShortLoopsOnASingleLine: true
+AllowShortLoopsOnASingleLine: false
 AlignAfterOpenBracket: true
 AlignAfterOpenBracket: true
 AllowShortBlocksOnASingleLine: true
+AlignConsecutiveAssignments: true
+AlwaysBreakTemplateDeclarations: true
 BreakConstructorInitializersBeforeComma: true
 BinPackParameters: true
 TabWidth: 2
+IndentWidth: 2
