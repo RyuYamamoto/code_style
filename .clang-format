@@ -1,7 +1,7 @@
 ---
 BasedOnStyle: 'Google'
 AccessModifierOffset: -2
-BreakBeforeBraces: Attach 
+BreakBeforeBraces: Allman
 AllowShortLoopsOnASingleLine: false
 AlignAfterOpenBracket: true
 AlignAfterOpenBracket: true
@@ -12,3 +12,4 @@ BreakConstructorInitializersBeforeComma: true
 BinPackParameters: true
 TabWidth: 2
 IndentWidth: 2
+Standard: Cpp11
