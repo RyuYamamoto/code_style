@@ -1,15 +1,18 @@
----
-BasedOnStyle: 'Google'
+Language: Cpp
+BasedOnStyle: Google
+
 AccessModifierOffset: -2
-BreakBeforeBraces: Allman
-AllowShortLoopsOnASingleLine: false
-AlignAfterOpenBracket: true
-AlignAfterOpenBracket: true
+AlignAfterOpenBracket: AlwaysBreak
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+ColumnLimit: 100
+ConstructorInitializerIndentWidth: 0
+ContinuationIndentWidth: 2
 AllowShortBlocksOnASingleLine: true
-AlignConsecutiveAssignments: true
-AlwaysBreakTemplateDeclarations: true
-BreakConstructorInitializersBeforeComma: true
-BinPackParameters: true
-TabWidth: 2
-IndentWidth: 2
-Standard: Cpp11
+DerivePointerAlignment: false
+PointerAlignment: Middle
+ReflowComments: false
